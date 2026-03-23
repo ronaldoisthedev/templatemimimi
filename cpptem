@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+using lint = long long;
+#define task ""
+#define fi first
+#define sec second
+
+void solve() {
+    //
+}
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    if (fopen(task".in", "r")) {
+        freopen(task".in", "r", stdin);
+        freopen(task".out", "w", stdout);
+    }
+
+    int tc = 1;
+    while (tc--) {
+        solve();
+    }
+    return 0;
+}
