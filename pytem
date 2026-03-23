@@ -1,0 +1,21 @@
+import os, sys
+from collections import *
+from math import *
+from itertools import *
+
+# remember to replace input and output file names
+if os.path.exists("iii.txt"):
+    sys.stdin = open("iii.txt", "r")
+    sys.stdout = open("ooo.txt", "w")
+
+sys.setrecursionlimit(10**6)
+
+input = sys.stdin.readline
+
+def solve():
+    # solution
+
+if __name__ == '__main__':
+    for tc in range(int(input())):
+        solve()
+    # solve()
