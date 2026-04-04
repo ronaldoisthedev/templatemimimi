@@ -2,8 +2,14 @@
 using namespace std;
 using lint = long long;
 #define task ""
-#define fi first
-#define sec second
+
+#define FOR(i, a, b) for (int i = (a), _b = (b); i <= _b; i++)
+#define FORD(i, b, a) for (int i = (b), _a = (a); i >= _a; i--)
+#define REP(i, n) for (int i = 0, _n = (n); i < _n; i++)
+
+#define fi   first
+#define se   second
+#define ALL(v) (v).begin(), (v).end()
 
 void solve() {
     //
@@ -12,12 +18,14 @@ void solve() {
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
+    //
     if (fopen(task".in", "r")) {
         freopen(task".in", "r", stdin);
         freopen(task".out", "w", stdout);
     }
 
     int tc = 1;
+    //cin >> tc;
     while (tc--) {
         solve();
     }
