@@ -1,15 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 using lint = long long;
-#define task ""
-
-#define FOR(i, a, b) for (int i = (a), _b = (b); i <= _b; i++)
-#define FORD(i, b, a) for (int i = (b), _a = (a); i >= _a; i--)
-#define REP(i, n) for (int i = 0, _n = (n); i < _n; i++)
-
+#define task "tenfile"
+#define FOR(i, a, b) for (lint i = (a), _b = (b); i <= _b; i++)
+#define FORD(i, b, a) for (lint i = (b), _a = (a); i >= _a; i--)
+#define REP(i, n) for (lint i = 0, _n = (n); i < _n; i++)
 #define fi   first
 #define se   second
-#define ALL(v) (v).begin(), (v).end()
+
+
+
 
 void solve() {
     //
